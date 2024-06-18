@@ -1,0 +1,28 @@
+#anima{
+    height: 100px;
+    width: 100px;
+    background: blue;
+    animation: anima 4s 4;
+}
+
+@keyframes anima{
+    0% {
+        background: blue;
+        transform: translateX(0);
+    }
+
+    25% {
+        background: red;
+        transform: translateX(1800px);
+    }
+
+    50% {
+        background: green;
+        transform: translateX(1800px) translateY(825px);
+    }
+
+    75% {
+        background: yellow;
+        transform: translateY(825px) translateZ(1800px);
+    }
+}
